@@ -1,0 +1,329 @@
+/* 
+Theme Name:		 heroesbrewco
+Theme URI:		 http://childtheme-generator.com/
+Description:	 heroesbrewco is a child theme of WP Bootstrap Starter, created by ChildTheme-Generator.com
+Author:			 Brian Ferrigno
+Author URI:		 http://childtheme-generator.com/
+Template:		 wp-bootstrap-starter
+Version:		 1.0.0
+Text Domain:	 heroesbrewco
+*/
+
+/*
+    Add your custom styles here
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+img {
+  margin: 10px;
+}
+
+/*--------------------------------------------------------------
+# Headings
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+  margin: 0 0 20px;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 28px;
+  padding-bottom: 0.3em;
+  line-height: 1.25;
+}
+h3 {
+  font-size: 24px;
+  line-height: 25px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 17.5px;
+}
+p {
+  margin-bottom: 1.5em;
+}
+h1.entry-title {
+  font-size: 38px;
+  color: #000000;
+  padding: 0;
+  border-bottom: 0;
+}
+h2.entry-title,
+h3.entry-title {
+  color: #000000;
+}
+div.homehero-title h1,
+div.homehero-title h2,
+div.homehero-title h3 {
+  color: #ffffff;
+  padding: 0;
+  border-bottom: 0;
+}
+div.homehero-hours h3,
+div.homehero-hours p {
+  color: #ffffff;
+}
+div.homehero-location h3,
+div.homehero-location p {
+  color: #ffffff;
+}
+.entry-content h2 {
+  color: #ffffff;
+  margin: 0;
+}
+.entry-content h4 {
+  color: #000000;
+}
+h3.widget-title {
+  color: #000000;
+}
+hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(188, 33, 37, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/*--------------------------------------------------------------
+## Colors
+--------------------------------------------------------------*/
+.bg-grey {
+  background-color: #2a2d34;
+}
+.bg-grey-light {
+  background-color: #535457;
+}
+.bg-grey-dark {
+  background-color: #1e2025;
+}
+.bg-yellow {
+  background-color: #febd4c;
+}
+.bg-yellow-light {
+  background-color: #ecc683;
+}
+.custom-toggler .navbar-toggler {
+  border-color: #febd4c;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='https://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 189, 76, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+  margin: 0 0 1.5em;
+  font-size: 0.9rem;
+  /* Make sure select elements fit in widgets. */
+}
+.widget select {
+  max-width: 100%;
+}
+
+.widget_search .search-form input[type="submit"] {
+  display: none;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+.half-rule {
+  width: 6rem;
+  margin: 2.5rem 0;
+}
+.widget_categories .nav-link {
+  display: inline-block;
+}
+
+.comment-respond h3,
+.entry-comments h3 {
+  margin-bottom: 3.75rem;
+  margin-top: 6.25rem;
+}
+
+/*--------------------------------------------------------------
+## Remove padding between masthead and main site content
+--------------------------------------------------------------*/
+#content.site-content {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+header#masthead {
+  background-color: #26282d;
+  padding: 0;
+}
+.remove-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/*--------------------------------------------------------------
+## Homepage Styles
+--------------------------------------------------------------*/
+.home-parallax {
+  background-image: url("https://www.heroesbrewco.com/wp-content/uploads/2020/05/background-bottles-v1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-hero-container {
+  min-height: 400px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.home-alert {
+  padding: 2em 0 1.5em 0;
+}
+.home-hero-upper {
+  padding-top: 2rem;
+  height: 70%;
+}
+.home-hero-lower {
+  padding-top: 2rem;
+  height: 30%;
+  background-color: #000000;
+  opacity: 0.7;
+}
+.home-hero-container .home-hero-content {
+  margin-top: 0;
+  width: 55%;
+  line-height: 1.5rem;
+}
+.home-beer-container {
+  background-image: url("https://www.heroesbrewco.com/wp-content/uploads/2020/05/Brown-Ale-Horizontal.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 350px;
+}
+
+/*--------------------------------------------------------------
+## Background layering
+--------------------------------------------------------------*/
+.background-hex {
+  background: url("https://www.heroesbrewco.com/wp-content/uploads/2020/06/hexagon-background-942982_1280.jpg");
+}
+.background-wood {
+  background: url("https://www.heroesbrewco.com/wp-content/uploads/2020/05/Untitled_HDR-2.jpg");
+}
+.background-bricks {
+  background: url("https://www.heroesbrewco.com/wp-content/uploads/2020/05/background-v2.jpg");
+}
+.background-eqip-1 {
+  background: url("https://www.heroesbrewco.com/wp-content/uploads/2020/05/equipment-v1.jpg");
+}
+.background-beer-1 {
+  background: url("https://www.heroesbrewco.com/wp-content/uploads/2020/05/beer-home-banner.jpg");
+  min-height: 350px;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.92);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Navigation Menu
+--------------------------------------------------------------*/
+.menu {
+  padding-top: 0;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.nav-link:hover {
+  color: #febd4c !important;
+  text-decoration: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler {
+  border-color: rgb(255, 102, 203);
+}
+
+/*--------------------------------------------------------------
+## Button Styling
+--------------------------------------------------------------*/
+.btn-success {
+  /*formatting goes here*/
+  background-color: #bc2125;
+  border-color: #991014;
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+  /*formatting goes here*/
+  background-color: #e83b40;
+  border-color: #991014;
+}
+
+/*--------------------------------------------------------------
+## Mobile Styles
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  p {
+    font-size: 1.2rem;
+  }
+  .container-fluid {
+    padding-right: 0 !important;
+  }
+  .home-hero-container {
+    height: 500px;
+  }
+  .home-hero-container .home-hero-content {
+    margin-top: 1.5rem;
+    width: 85%;
+  }
+  .home-hero-container h1 {
+    font-size: 3rem;
+  }
+  .home-hero-container h3 {
+    font-size: 1.5rem;
+  }
+  .home-hero-upper {
+    padding-top: 0;
+  }
+  .home-hero-lower {
+    padding-top: 1rem;
+  }
+}
